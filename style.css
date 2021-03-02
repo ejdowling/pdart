@@ -1,0 +1,59 @@
+h1 {text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 1.5em;}
+body {font-family: 'Roboto Slab', serif; margin:10;}
+.mySlides {display: none}
+img {margin: auto; max-height: 75vh;}
+.bio {display: block; text-align: right; margin:1em}
+.links {position: fixed;
+    bottom: 0;
+    right: 0; margin:1em}
+/* Slideshow container */
+.slideshow-container {
+    max-width: fit-content;
+     margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 42%;
+  width: auto;
+  padding: 16px;
+  margin-top: 10px;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 50%;
+  
+}
+
+
+/* The dots/bullets/indicators */
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

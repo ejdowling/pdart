@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+<link href = "style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<a class="bio" href = "bio.html">Bio</a>
+<a class="links">Instagram - Email: paspdpspdp - Phone: 10000000000</a>
+<h1>
+  Paul Dowling
+</h1>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img1.jpg">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img2.jpg">
+  <div class="text">Caption Two</div>
+</div>
+
+
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<br>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  
+}
+document.addEventListener('keydown', (e) => {
+    if (e.keyCode === 39) plusSlides(1);
+    if (e.keyCode === 37) plusSlides(-1)
+});
+</script>
+
+</body>
+</html> 
