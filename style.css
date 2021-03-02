@@ -58,7 +58,8 @@ figcaption{
   top: 83%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Roboto Slab', serif; margin:10;}
+  font-family: 'Roboto Slab', serif; margin:10;
+  text-align: center;}
 /* The dots/bullets/indicators */
 
 
