@@ -1,4 +1,5 @@
 h1 {text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 1.5em;}
+h2 {text-align: left; font-family: 'Cormorant Garamond', serif; font-size: 1.2em; margin-left: 12.8em;}
 body {font-family: 'Roboto Slab', serif; margin:10;}
 .mySlides {display: none}
 img {
@@ -10,9 +11,21 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.bio {text-align: right; margin:1em; position: fixed;
+.bio {text-align: right; margin-top: 1em;
+  margin-right: 9em; position: fixed;
+  display: inline-block;
   top: 0;
   right: 0;}
+  .bio2 {text-align: right; margin-top: 1em;
+    margin-right: 3em; position: fixed;
+    display: inline-block;
+    top: 0;
+    right: 0;}
+  .fa {text-align: right;  margin:1em; position: fixed;
+    display: inline-block;
+    top: 0;
+    right: 0;}
+    
 .links {position: fixed;
     bottom: 0;
     right: 0; margin:1em}
