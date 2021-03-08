@@ -89,7 +89,7 @@ figcaption{
   .prev, .next,.text {font-size: 11px}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   figcaption{
     top: 76%;
     left: 50%;}
