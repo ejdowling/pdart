@@ -85,19 +85,29 @@ figcaption{
 
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 600px) {
   .prev, .next,.text {font-size: 11px}
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
   figcaption{
-    max-width: 90%;
+    max-width: 100%;
     top: 76%;
     left: 50%;}
     .bio{font-size:0.7em}
     .bio2{font-size:0.7em}
 
   .fa{font-size:0.7em}
+
+  .fig2{
+  font-size: 0.7em;}
+  .image2{
+    max-width: 150%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+  
+}
 }
 
 a:link {
@@ -118,3 +128,9 @@ a:hover {
 a:active {
   color: black;
 }
+
+.image2{
+  max-width: 23%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
