@@ -97,10 +97,10 @@ figcaption{
     .bio{font-size:0.7em}
     .bio2{font-size:0.7em}
 
-  .fa{font-size:0.7em}
+    .fa{font-size:0.7em}
 
   .fig2{
-  font-size: 0.7em;}
+    font-size: 0.7em;}
   .image2{
     max-width: 150%;
     top: 40%;
@@ -108,7 +108,7 @@ figcaption{
     transform: translate(-50%, -50%);}
   
 }
-}
+
 
 a:link {
   color: black;
