@@ -92,7 +92,7 @@ figcaption{
 @media screen and (max-width: 600px) {
   figcaption{
     max-width: 100%;
-    top: 76%;
+    top: 84%;
     left: 50%;}
     .bio{font-size:0.7em}
     .bio2{font-size:0.7em}
@@ -100,7 +100,10 @@ figcaption{
     .fa{font-size:0.7em}
 
   .fig2{
-    font-size: 0.7em;}
+    font-size: 0.7em;
+    max-width: 80%;
+    top:70%
+  }
   .image2{
     max-width: 150%;
     top: 40%;
